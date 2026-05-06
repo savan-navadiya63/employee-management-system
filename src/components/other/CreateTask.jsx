@@ -40,11 +40,13 @@ const CreateTask = () => {
 
     setUserData(updatedData);
 
+  
     setTaskTitle("");
     setTaskDate("");
     setAsingTO("");
     setCategory("");
     setTaskDescription("");
+  
   };
 
   return (
