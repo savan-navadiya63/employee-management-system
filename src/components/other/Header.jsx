@@ -14,6 +14,7 @@ const Header = (props) => {
           {name} <span className="text-2xl">👋</span>
         </h2>
       </div>
+      
       <button
         onClick={logOutUser}
         className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-red-700 hover:bg-red-500 text-white font-semibold shadow-lg shadow-red-900/30 transition-all duration-200"
