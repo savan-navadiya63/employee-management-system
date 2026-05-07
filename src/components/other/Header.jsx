@@ -14,12 +14,6 @@ const Header = (props) => {
           {name} <span className="text-2xl">👋</span>
         </h2>
       </div>
-      {/* <button
-        onClick={logOutUser}
-        className="px-6 py-2.5 bg-red-500/10 hover:bg-red-500/20 border border-red-500/30 hover:border-red-500/50 text-red-400 hover:text-red-300 font-semibold rounded-lg transition duration-200 text-sm md:text-base"
-      >
-        Log Out
-      </button> */}
       <button
         onClick={logOutUser}
         className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-red-700 hover:bg-red-500 text-white font-semibold shadow-lg shadow-red-900/30 transition-all duration-200"
